@@ -1,0 +1,25 @@
+.container {
+    background-color: tan;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left, .right {
+    color: blue;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inner, .center {
+    background-color: white;
+}
+
+.center {
+    color: salmon;
+    font-size: 30px;
+}
+

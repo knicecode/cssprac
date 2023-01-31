@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background: #eee;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+li, .logo, .profilepic {
+    margin: 5px;
+}
+
+.logo {
+    font-size: 40px;
+}
+
+.logo, a, .button, .profilepic {
+    color: rebeccapurple;
+}
